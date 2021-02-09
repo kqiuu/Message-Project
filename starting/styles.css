@@ -1,0 +1,106 @@
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fp{
+    width: 45%;
+    display: inline-block;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.colorcontainer {
+    width: 100%;
+}
+
+.cb {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.lab{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.crimsonbox {
+    background-color: Crimson
+}
+
+.chocolatebox {
+    background-color: hsl(25, 75%, 47%)
+}
+
+.darkorchidbox {
+    background-color: rgb(153, 50, 204);
+}
+
+.goldenrodbox {
+    background-color: goldenrod;
+}
+
+.orchidbox {
+    background-color: orchid;
+}
+
+.ii{
+    font-style: italic;
+}
+
+.bb{
+    font-weight: bold;
+}
+
+.norm{
+    font-style: normal;
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.krub{
+    font-family: 'Krub', sans-serif;
+}
+
+.rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+.h1box{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.h2box{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pbox{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,152 @@
+body{
+    font-family: "Sriracha", sans-serif;
+    font-size: 24px;
+    color: pink;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+a{
+    color: seashell;
+}
+
+
+h2,
+h3,
+h4{
+    padding: 10px;
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    margin: auto;
+}
+
+header img{
+    padding-left: 10px;
+    height: 80px;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+.main{
+    padding-top: 120px;
+    opacity: 0.9px;
+    width: 1200px;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#theman{
+    padding-top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./resources/bigimage.jpg);
+
+}
+
+#theman .intro{
+    height: 140px;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+#gallery{
+    padding-top: 70px;
+    height: 1400px;
+    width: 1400px;
+    margin: auto;
+    font-family: "Satisfy", sans-serif;
+}
+
+#gallery h1{
+    color: crimson;
+}
+
+#gallery h2{
+    font-family: "Pangolin";
+}
+
+.pic{
+    padding: 5px;
+}
+
+.pic img {
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    display: block;
+}
+
+.pic span {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+#dabber{
+    padding: 0px 0px 50px 0px;
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    border-top: 2px solid seagreen;
+    border-bottom: 2px dashed seagreen;
+    margin-bottom: 50px;
+}
+
+#dabber .flex-container{
+    margin: auto;
+    width: 1200px;
+}
+
+.dabb{
+    height: 300px;
+    width: 500px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px 20px;
+    opacity: 1;
+    flex-basis: 400px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact{
+    margin-top: 80px;
+    width: 500px;
+    height: 700px;
+    font-family: "Stalinist One", sans-serif;
+    border: 4px double red;
+    margin: auto;
+}
+
+footer{
+    padding-left: 20px;
+    text-align: left;
+}
